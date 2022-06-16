@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ****************************************************************************************************
+
+  # This Is Mark Down Styles
+
+**************************************************************************************************** */
+.markdown-preview {
+  /* ### title
+  ---------------------------------------------------------------------- */
+  h1 {
+    font-size: 2.6rem;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  /* ### p
+  ---------------------------------------------------------------------- */
+  p {
+    font-size: 1.4rem;
+  }
+  /* ### list
+  ---------------------------------------------------------------------- */
+  ul {
+    li {
+      list-style: inside;
+    }
+  }
+  ol {
+    li {
+      list-style: inside;
+      list-style: inside;
+      list-style-type: decimal;
+      ul {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  /* ### link
+  ---------------------------------------------------------------------- */
+  a {
+    color: #7aa2f7;
+  }
+  /* ### blockquate
+  ---------------------------------------------------------------------- */
+  blockquate {
+    font-size: 0.95rem;
+    margin: 1.4rem 0;
+    border-left: 3px solid #b3bfc7;
+    padding: 2px 0 2px 0.7em;
+    color: #626e77;
+  }
+  /* ### code
+  ---------------------------------------------------------------------- */
+  code {
+    font-size: 1.4rem;
+    color: #d5d6db;
+    background-color: #343b58;
+    line-height: 1;
+  }
+}
